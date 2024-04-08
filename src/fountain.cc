@@ -19,9 +19,11 @@
 #include "fountain.h"
 
 #include <podofo/podofo.h>
-#include <string.h>
+#include <cstring>
 
 #include "auxiliary.h"
+
+#define DEBUG printf("%s:%d\n", __FILE__, __LINE__);
 
 namespace Fountain {
 
